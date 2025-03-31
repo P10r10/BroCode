@@ -1,10 +1,27 @@
 import List from "./components/List/List.jsx";
 
 function App() {
+    const fruits = [
+        {id: 1, name: "banana", calories: 37},
+        {id: 2, name: "apple", calories: 45},
+        {id: 3, name: "strawberry", calories: 159},
+        {id: 4, name: "kiwi", calories: 105},
+        {id: 5, name: "grapes", calories: 95},
+        {id: 6, name: "mango", calories: 77},
+    ];
+    const vegetables = [
+        {id: 1, name: "broccoli", calories: 110},
+        {id: 2, name: "celery", calories: 15},
+        {id: 3, name: "carrots", calories: 25},
+        {id: 4, name: "corn", calories: 63},
+        {id: 5, name: "potatoes", calories: 50},
+        {id: 6, name: "lettuce", calories: 99},
+    ];
 
     return (
         <>
-            <List/>
+            {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
+            {vegetables.length >0 && <List items={vegetables} category="Vegetables"/>}
         </>
     );
 }
