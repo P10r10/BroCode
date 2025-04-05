@@ -1,5 +1,4 @@
 import styles from "./List.module.css";
-import PropTypes from 'prop-types';
 
 function List(props) {
 
@@ -14,15 +13,6 @@ function List(props) {
             <ol className={styles.listItems}>{listItems}</ol>
         </>
     )
-}
-
-List.propTypes = {
-    category: PropTypes.string,
-    items: PropTypes.arrayOf(PropTypes.shape({
-        id: PropTypes.number,
-        name: PropTypes.string,
-        calories: PropTypes.number})
-    ),
 }
 
 
