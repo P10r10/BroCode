@@ -26,7 +26,7 @@ function App2() {
     );
 }
 
-export default App
+export default App2
 
 // import Card from "./components/Card/Card.jsx";
 // import christina from "./assets/christina.jpg"
