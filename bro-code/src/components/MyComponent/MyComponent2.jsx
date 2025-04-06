@@ -29,11 +29,11 @@ function MyComponent2() {
             </select>
             <p>Pagamento: {payment}</p>
             <label>
-                <input type="radio" name="rb" value="Recolha" checked={shipping === "Recolha"}
+                <input type="radio" value="Recolha" checked={shipping === "Recolha"}
                        onChange={handleShippingChange}/> Recolha
             </label><br/>
             <label>
-                <input type="radio" name="rb" value="Entrega" checked={shipping === "Entrega"}
+                <input type="radio" value="Entrega" checked={shipping === "Entrega"}
                        onChange={handleShippingChange}/> Entrega
             </label>
             <p>Expedição: {shipping}</p>
