@@ -1,10 +1,10 @@
-import Counter from "./components/Counter/Counter.jsx";
+import MyComponent2 from "./components/MyComponent/MyComponent2.jsx";
 
 function App() {
 
     return (
         <>
-            <Counter/>
+            <MyComponent2/>
         </>
     );
 }
