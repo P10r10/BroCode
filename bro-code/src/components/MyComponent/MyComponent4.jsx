@@ -1,5 +1,6 @@
 import {useState} from "react";
 
+//UPDATE THE STATE OF ARRAYS
 function MyComponent4() {
 
     const [foods, setFoods] = useState(["Banana", "Orange", "Strawberry"]);

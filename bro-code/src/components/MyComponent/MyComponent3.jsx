@@ -1,5 +1,6 @@
 import {useState} from "react";
 
+//UPDATE THE STATE OF AN OBJECT
 function MyComponent3() {
 
     const [car, setCar] = useState({

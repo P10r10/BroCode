@@ -1,5 +1,6 @@
 import {useState} from "react";
 
+//ONCHANGE EVENT HANDLER
 function MyComponent2() {
 
     const [name, setName] = useState("Guest");
