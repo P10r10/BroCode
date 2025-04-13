@@ -1,0 +1,7 @@
+{
+  "name": "bro-root",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm start --prefix bro-code"
+  }
+}
