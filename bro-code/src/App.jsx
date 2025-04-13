@@ -1,10 +1,10 @@
-import ToDoList from "./components/ToDoList/ToDoList.jsx";
+import MyComponent7 from "./components/MyComponent/MyComponent7.jsx";
 
 function App() {
 
     return (
         <>
-            <ToDoList/>
+            <MyComponent7/>
         </>
     );
 }
