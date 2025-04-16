@@ -1,13 +1,13 @@
-import MyComponent7 from "./components/MyComponent/MyComponent7.jsx";
+import DigitalClock from "./components/DigitalClock/DigitalClock.jsx";
 
 function App() {
 
     return (
         <>
-            <MyComponent7/>
+            <DigitalClock/>
         </>
     );
 }
 
-export default App
+export default App;
 
