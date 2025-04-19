@@ -1,10 +1,10 @@
-import MyComponent8 from "./components/MyComponent/MyComponent8.jsx";
+import Stopwatch from "./components/Stopwatch/Stopwatch.jsx";
 
 function App() {
 
     return (
         <>
-            <MyComponent8/>
+            <Stopwatch/>
         </>
     );
 }
